@@ -32,10 +32,10 @@ const noOfSections = sections.length;
 function findActive(dists){
 	for (let i = 0; i < noOfSections; i++){
 		if (dists[i] <= 300 && dists[i] >= -300){
-			var activeIndex = i;
+			let activeIndex = i;
+			return activeIndex;
 		}	
 	}
-	return activeIndex;
 } 
 
 /**
