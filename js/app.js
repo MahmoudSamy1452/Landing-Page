@@ -80,8 +80,8 @@ function activeSection(){
 	// Finding closest section to the top of the viewport
 	activeIndex = findActive(distFromTop);
 
-	// Removing active class from surrounding (above or below) sections if applied and applying it to the current active section if not applied
-	for (let indexSelection = activeIndex-1; indexSelection <= activeIndex + 1; indexSelection++){
+	// Removing active class from inactive sections if applied and applying it to the current active section if not applied
+	for (let indexSelection = 0; indexSelection < noOfSections; indexSelection++){
 
 		// Skip indexSelection when out of index
 		if (indexSelection == -1 || indexSelection == noOfSections){
