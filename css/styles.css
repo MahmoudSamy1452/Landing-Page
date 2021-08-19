@@ -66,10 +66,6 @@ section {
 
 /* Navigation Styles*/
 
-nav{
-    overflow: auto;
-}
-
 .navbar__menu .your-active-nav{
     animation-name: moveIn;
     animation-duration: 2s;
@@ -80,7 +76,6 @@ nav{
     margin: 0;
     text-align: right;
     overflow: hidden;
-    white-space: nowrap;
     width: fit-content;
     animation-name: moveOut;
     animation-duration: 2s;
