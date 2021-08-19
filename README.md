@@ -49,4 +49,4 @@ This sections includes all sources used as documentation to check the use of met
 
 ## Credits
 
-This project was developed by *[Mahmoud Samy](https://github.com/MahmoudSamy1452)* as one of the project required to pass Front End Web Development Professional Nanodegree Program provided by Udacity
+This project was developed by *[Mahmoud Samy](https://github.com/MahmoudSamy1452)* as one of the projects required to pass Front End Web Development Professional Nanodegree Program provided by Udacity
