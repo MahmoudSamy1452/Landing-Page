@@ -108,7 +108,7 @@ function scrollToSection(event){
 
 	// Corresponding links and sections have a common index-like number at the end of their ids
 	let sectionNum = link[4];
-	var target = document.querySelector(`#section${sectionNum}`);
+	let target = document.querySelector(`#section${sectionNum}`);
 
 	target.scrollIntoView({behavior: 'smooth'});
 }
