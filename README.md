@@ -33,7 +33,7 @@ You can clone the repository directly to your device to view the webpage or you 
 * The choice of not including an anchor tag inside each list item in the navigation menu was preferred because it needs to be overridden by
  ```e.preventDefault();``` for the smooth transition between sections to take effect which is redundant.
 * Any function that was not found to be reusable was defined as a named anonymous function directly in its place of use.
-* Extra css rules were added to animate the motion of the navigation menu and the selection of a particular link. Enhancements to compatibility with small-screen devices by controlling the overflow of navigation menu items were implemented.
+* Extra css rules were added to animate the motion of the navigation menu and the selection of a particular link.
 
 ## Usage
 
