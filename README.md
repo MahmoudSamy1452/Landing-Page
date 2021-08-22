@@ -41,7 +41,7 @@ This webpage can be used as a template for a landing page. (disclaimer: do not u
 
 ## References
 
-This sections includes all sources used as documentation to check the use of methods and properties used in the development of this project:
+This section includes all sources used as documentation to check the use of methods and properties used in the development of this project:
 
 * [W3School](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
