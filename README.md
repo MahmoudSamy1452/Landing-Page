@@ -20,6 +20,7 @@ Features added:
 * Smooth scrolling to a specific section upon clicking of corresponding link in the navigation menu.
 * Automatic hiding of navigation menu after 3 sec of inactivity.
 * Highlighting link of the active section in the navigation menu.
+* Display a functional scroll to top button when not at the webpage's top
 
 All features added are compatible with all platforms running an up-to-date browser.  
 Some changes were made in html and css files for a better and effective design.
