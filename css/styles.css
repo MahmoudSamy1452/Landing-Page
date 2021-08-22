@@ -230,6 +230,21 @@ section.your-active-class .landing__container::after {
     animation: rotate 5s linear 0s infinite forwards reverse;
 }
 
+.scrollToTop {
+    position: fixed;
+    top: 92%;
+    left: 92%;
+    z-index: 5;
+    overflow: hidden;
+    max-height: 0;
+}
+.your-active-icon{
+    animation: moveIn 2s forwards
+}
+.your-idle-icon{
+    animation: moveOut 0.3s forwards;
+}
+
 /* Section Active Styles Keyframe Animations */
 @keyframes rotate {
 	from {

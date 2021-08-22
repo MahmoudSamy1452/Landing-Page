@@ -21,6 +21,7 @@
 const navbarList = document.getElementById('navbar__list');
 const sections = document.getElementsByTagName('section');
 const noOfSections = sections.length;
+const scrollTop = document.querySelector('div');
 
 /**
  * End Global Variables
@@ -147,3 +148,21 @@ document.addEventListener('scroll',activeSection);
 // Display navigation menu after scroll
 document.addEventListener('DOMContentLoaded',peek);
 document.addEventListener('scroll',peek);
+
+function scrollUpButton(){
+	if (visualViewport.pageTop != 0){
+		scrollTop.classList.add('your-active-icon');
+		if (scrollTop.classList.contains('your-idle-icon')){
+			scrollTop.classList.remove('your-idle-icon');
+		}
+	} else if (scrollTop.classList.contains('your-active-icon')) {
+		scrollTop.classList.remove('your-active-icon');
+		scrollTop.classList.add('your-idle-icon');
+	}
+	console.log(scrollTop);
+}
+
+document.addEventListener('scroll',scrollUpButton);
+scrollTop.addEventListener('click', function(){
+	window.scrollTo({top:0, behavior:'smooth'});
+});
