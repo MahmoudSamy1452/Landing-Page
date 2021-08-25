@@ -35,6 +35,7 @@ You can clone the repository directly to your device to view the webpage or you 
  ```e.preventDefault();``` for the smooth transition between sections to take effect which is redundant.
 * Any function that was not found to be reusable was defined as a named anonymous function directly in its place of use.
 * Extra css rules were added to animate the motion of the navigation menu and the selection of a particular link.
+* You can check out the webpage [here](https://mahmoudsamy1452.github.io/Landing-Page/)
 
 ## Usage
 
